@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio6</title>
+ <style>
+     
+     @media (max-width: 600px) {
+            #contenido {
+                width: 100%;
+                background-color: red;
+                font-size: 11px
+            }
+            
+            #recomendaciones {
+                width: 100%;
+                background-color: red;
+                font-size: 11px
+            }
+        }
+
+        @media (max-width: 800px) and (min-width: 600px){
+            #contenido {
+                    width: 60%;
+                    background-color: green;
+                    font-size: 12px
+                }
+
+                #recomendaciones {
+                    width: 30%;
+                    background-color: blue;
+                    font-size: 12px
+                }
+            }
+        
+        @media (min-width: 800px) {
+            #contenido {
+                    width: 80%;
+                    background-color: violet;
+                    font-size: 14px
+                }
+
+                #recomendaciones {
+                    width: 15%;
+                    background-color: yellow;
+                    font-size: 14px
+                }
+        }
+ </style>
+</head>
+
+<body>
+    <div id="contenido">
+        <h1>Título</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum corporis
+            commodi earum magni eaque nihil laboriosam sapiente inventore ratione
+            esse magnam error, assumenda fugit nobis. Corporis, earum tenetur?
+            Consequatur deleniti error voluptates nesciunt id reiciendis earum modi
+            veritatis nihil consequuntur!
+        </p>
+    </div>
+    <div id="recomendaciones">
+        <h1>Título 2</h1>
+        <ol>
+            <li>Uno</li>
+            <li>Dos</li>
+            <li>Tres</li>
+        </ol>
+    </div>
+</body>
+</html>
